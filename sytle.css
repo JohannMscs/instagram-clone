@@ -12,7 +12,7 @@ body{
 .container{
     background-color: rgb(65, 4, 39);
     width:  400px;
-    height: 500px;
+    height:  500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +35,14 @@ body{
     margin-top: 7px;
     border: 3px solid black;
     border-radius: 10px;
-    color: #ffffff ;
-    
-
-    
+    color: #ffffff ;  
 }
+hr{
+    margin-top: 15px;
+}
+.container i{
+    align-items: center;
+    justify-content: center;
+
+}
+
