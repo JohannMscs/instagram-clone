@@ -13,6 +13,7 @@ body{
     background-color: rgb(65, 4, 39);
     width:  400px;
     height:  500px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +46,18 @@ hr{
     justify-content: center;
 
 }
+.line{
+    width: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.ou{
+    color: #ffffff;
+    display: flex;
+    text-align: justify;
+}
+
 
