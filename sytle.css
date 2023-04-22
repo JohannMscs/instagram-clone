@@ -15,15 +15,16 @@ body{
     width:  400px;
     height:  450px;
     margin-top: 40px;
-    border: 2px solid #c9c2c2;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    border: 2px solid #c9c2c2;
     
 }
 .login{
     margin-bottom: 100px;
-    margin-left: 25px;
+    margin-left: 42.5px;
     
 }
 .login input{
@@ -104,7 +105,7 @@ a:visited{
     margin-right: 20px;
     font-size: 13px;
 }
-.final{
+.register{
     width: 400px;
     height: 70px;
     margin-top: 20px;
@@ -133,7 +134,40 @@ a:visited{
     margin: 0;
 }
 #icon-apps{
+    height: auto;
+    width:400px ;
     margin-top: 20px;
     padding-left: 20px;
-
+    align-items: center;
+    
+}
+#icon-apps p{
+    margin-right: 50px;
+}
+.finally{
+    width: 390px;
+    height: auto;
+    margin-top: 13px;
+}
+.finally span{
+    display: inline;
+    text-align: center;
+    padding-left: 5px;
+    color: #918f8f;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.idioma{
+    width: 400px;
+    font-size: 10px;
+    padding-left: 50px;
+    color: #918f8f;
+}
+.idioma span{
+    padding-left: 10px;
+}
+select{
+    border: none;
+    background-color: transparent;
+    padding-left: 5px;
 }
