@@ -5,15 +5,15 @@
 body{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: center;
     align-items: center;
     justify-content: center;
 }
 
 .container{
     background-color: #ffffff;
-    width:  400px;
-    height:  450px;
+    width:  380px;
+    height:  440px;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -106,11 +106,12 @@ a:visited{
     font-size: 13px;
 }
 .register{
-    width: 400px;
+    width: 380px;
     height: 70px;
     margin-top: 20px;
     border: solid 2px #cecccc;
     text-align: center;
+    display: center;
     
 }
 .cadastro{
@@ -128,34 +129,37 @@ a:visited{
 #app{
     text-align: center;
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 .apps{
-    width: 115px;
+    width: 105px;
     margin: 0;
 }
 #icon-apps{
     height: auto;
-    width:400px ;
+    width: 380px;
     margin-top: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
     align-items: center;
+    display: center;
     
 }
 #icon-apps p{
     margin-right: 50px;
 }
 .finally{
-    width: 390px;
-    height: auto;
+    width: 380px;
+    height: 100px;
     margin-top: 13px;
+    display: inline;
 }
 .finally span{
-    display: inline;
+    display: center;
     text-align: center;
-    padding-left: 5px;
+    padding-right: px;
     color: #918f8f;
     font-size: 13px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .idioma{
     width: 400px;
@@ -170,4 +174,8 @@ select{
     border: none;
     background-color: transparent;
     padding-left: 5px;
+}
+footer{
+    width: 380px;
+    height: 100px;
 }
